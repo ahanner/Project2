@@ -36,7 +36,7 @@ public class DijkstrasWithoutHeap {
         	adj.get(edges[i][0]-1).add(new HeapNode(edges[i][1],edges[i][2]));
         	adj.get(edges[i][1]-1).add(new HeapNode(edges[i][0],edges[i][2]));
         }
-        System.out.println(adj.size());
+
     }
     
     private boolean allVisted(boolean[] visted) {
